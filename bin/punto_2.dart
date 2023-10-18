@@ -16,5 +16,6 @@ num inputNumeros(String mensaje) {
   stdout.write(mensaje);
 
   var numero = stdin.readLineSync();
+
   return num.parse(numero!);
 }
